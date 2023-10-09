@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/services.css" />
+    <script type="importmap">
+      { "imports": {
+          "firebase": "https://www.gstatic.com/firebasejs/9.6.6/firebase-app.js",
+          "firestore": "https://www.gstatic.com/firebasejs/9.6.6/firebase-firestore.js",
+          "functions": "https://www.gstatic.com/firebasejs/9.6.6/firebase-functions.js"
+      } }
+    </script>
+    <script type="module" src="/js/dataclass.js" defer></script>
+    <script type="module" src="/js/firebase.js" defer></script>
+    <script type="module" src="/js/services.js" defer></script>
+    <title>Services</title>
+  </head>
+  <body>
+    <div id="commentsshow"></div>
+    <button onclick="hideComments()" id="commentsshow-background"></button>
+    <ul id="menu-bar">
+      <li>
+        <h6><a href="/">Home</a></h6>
+      </li>
+      <li>
+        <h6><a href="/events">Events</a></h6>
+      </li>
+      <li>
+        <h6><a href="/news">News</a></h6>
+      </li>
+      <li>
+        <h6><a href="/services">Services</a></h6>
+      </li>
+    </ul>
+    <h2>Services</h2>
+    <div id="main">
+      <form method="" id="left">
+        <h3>Comment Box</h3>
+        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+        <button type="submit" id="submit">Submit</button>
+      </form>
+      <div id="right">
+        <button onclick="showComments()">
+          <h5>Comment Box</h5>
+          <h5>Progress</h5>
+        </button>
+        <a>
+          <h5 class="a">Study Room</h5>
+          <h5 class="a">Reservation</h5>
+        </a>
+        <a
+          target="_blank"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfb671CcJwAw6aftcw5nAnHQQSC5ZMR1t23jH4uFsPI51je3w/viewform"
+        >
+          <h5 class="b">Submit Shortnotes</h5>
+        </a>
+        <a
+          target="_blank"
+          href="https://kvis-my.sharepoint.com/personal/studentcommittee_kvis_ac_th/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fstudentcommittee%5Fkvis%5Fac%5Fth%2FDocuments%2FShortnote&ga=1"
+        >
+          <h5 class="b">Read Shortnotes</h5>
+        </a>
+        <a target="_blank" href="https://opac.kvis.ac.th/home">
+          <h5 class="c">KVIS OPAC</h5>
+          <h6 class="c">Borrowing book from ARC</h6>
+        </a>
+        <a href="">
+          <h5 class="a">Weekly</h5>
+          <h5 class="a">Summaries</h5>
+        </a>
+        <a target="_blank" href="https://kvis-alumni.web.app/">
+          <h5 class="b">KVIS Alumni</h5>
+        </a>
+        <a target="_blank" href="https://lab.kvis.ac.th/">
+          <h5 class="b">KVIS Lab</h5>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

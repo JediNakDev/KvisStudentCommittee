@@ -1,0 +1,23 @@
+* {
+  background-color: #b3a1c7;
+}
+
+h1 {
+  padding-top: 192px;
+  padding-left: 48px;
+  color: white;
+}
+
+h5 {
+  width: 50%;
+  overflow: hidden;
+  position: relative;
+  top: -35px;
+  left: 51px;
+}
+
+#jedi{
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+}

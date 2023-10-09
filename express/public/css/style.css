@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Ikaros";
+  src: url(fonts/Ikaros.otf) format("opentype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Ikaros", sans-serif;
+}
+
+h1 {
+  font-size: 160px;
+}
+
+h2 {
+  font-size: 96px;
+}
+
+h3 {
+  font-size: 64px;
+}
+
+h4 {
+  font-size: 48px;
+}
+
+h5 {
+  font-size: 32px;
+}
+
+h6 {
+  font-size: 24px;
+}
+
+a{
+    color: black;
+}
+
+#menu-bar {
+  display: flex;
+  list-style: none;
+  background-color: #5AB69B;
+  width: 100%;
+  height: 40px;
+}
+
+#menu-bar li {
+  padding-left: 16px;
+  padding-top: 4px;
+  background-color: transparent;
+}
+
+#menu-bar li h6 {
+  background-color: transparent;
+}
+
+#menu-bar li h6 a {
+  background-color: transparent;
+}
